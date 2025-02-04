@@ -1,3 +1,5 @@
+# From: https://www.instructables.com/Create-a-Simple-Python-Text-Editor/
+
 import sys
 
 v = sys.version
