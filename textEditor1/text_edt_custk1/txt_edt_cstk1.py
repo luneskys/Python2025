@@ -1,14 +1,5 @@
-import sys  # Importa o módulo sys, que fornece acesso a algumas variáveis usadas ou mantidas pelo interpretador.
 import customtkinter as ctk  # Importa a biblioteca customtkinter e a define como ctk.
 from tkinter import filedialog as tkFileDialog  # Importa o módulo filedialog do tkinter e o define como tkFileDialog.
-
-v = sys.version  # Obtém a versão do Python em uso como uma string.
-if "2.7" in v:  # Verifica se a versão do Python é 2.7.
-    import Tkinter as tk  # Importa Tkinter como tk para Python 2.7.
-    import tkFileDialog  # Importa o módulo tkFileDialog para Python 2.7.
-else:  # Se a versão do Python não for 2.7.
-    import tkinter as tk  # Importa tkinter como tk para Python 3.x.
-    import tkinter.filedialog as tkFileDialog  # Importa o módulo filedialog como tkFileDialog para Python 3.x.
 
 root = ctk.CTk()  # Usando customtkinter para criar a janela principal.
 root.title("Text Editor")  # Define o título da janela principal como "Text Editor".
